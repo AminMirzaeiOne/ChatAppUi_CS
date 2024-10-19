@@ -6,6 +6,8 @@
              xmlns:local="clr-namespace:ChatAppUi.Controls"
              Name="accountMenu">
     <Button Style="{StaticResource leftSideButton}">
+        <Grid>
             
+        </Grid>
     </Button>
 </UserControl>
