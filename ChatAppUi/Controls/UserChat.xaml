@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ChatAppUi.Controls"
              mc:Ignorable="d" 
              Name="userChat">
-    <StackPanel>
+    <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
             
     </StackPanel>
 </UserControl>
