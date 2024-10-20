@@ -7,6 +7,10 @@
              mc:Ignorable="d" 
             Name="chatSeprator" d:DesignWidth="200" d:Background="White">
     <Grid>
-            
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </UserControl>
