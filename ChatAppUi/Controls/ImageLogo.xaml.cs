@@ -16,20 +16,11 @@ using System.Windows.Shapes;
 namespace ChatAppUi.Controls
 {
     /// <summary>
-    /// Interaction logic for ChatSeprator.xaml
+    /// Interaction logic for ImageLogo.xaml
     /// </summary>
-    public partial class ChatSeprator : UserControl
+    public partial class ImageLogo : UserControl
     {
-        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(ChatSeprator));
-
-        public string Title
-        {
-            get { return (string)GetValue(TitleProperty); }
-            set { SetValue(TitleProperty, value); }
-        }
-
-
-        public ChatSeprator()
+        public ImageLogo()
         {
             InitializeComponent();
         }
