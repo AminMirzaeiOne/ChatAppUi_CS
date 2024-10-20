@@ -59,6 +59,12 @@ namespace ChatAppUi.Controls
             set { SetValue(IsActiveProperty, value); }
         }
 
+        public Brush Color
+        {
+            get { return (Brush)GetValue(ColorProperty); }
+            set { SetValue(ColorProperty, value); }
+        }
+
 
 
 
