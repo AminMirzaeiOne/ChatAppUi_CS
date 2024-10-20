@@ -17,5 +17,15 @@
             <Path Fill="#F8F7FC" Stretch="Fill"
         Data="M0 20.7C15 20 26.5 12 27 0V87.6C26 75 15.1 67.5 0 67V24Z"/>
         </Grid>
+
+        <Button x:Name="btn" Style="{StaticResource menuButton}">
+            <StackPanel Orientation="Horizontal">
+                <icon:PackIconMaterial Kind="{Binding ElementName=menuButton,Path=Icon}"
+                               Style="{StaticResource menuButtonIcon}" />
+                <TextBlock Text="{Binding ElementName=menuButton,Path=Title}"
+                   Style="{StaticResource menuButtonText}" />
+            </StackPanel>
+        </Button>
+        
     </Grid>
 </UserControl>
