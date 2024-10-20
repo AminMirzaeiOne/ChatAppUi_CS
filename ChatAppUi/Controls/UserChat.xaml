@@ -12,5 +12,9 @@
                 <ImageBrush ImageSource="{Binding Path=Source,ElementName=userChat}"/>
             </Border.Background>
         </Border>
+
+        <TextBlock Text="{Binding Path=Username,ElementName=userChat}" Margin="10 0 0 0" FontSize="12" FontWeight="SemiBold" Foreground="#37363B" VerticalAlignment="Center"/>
+
+        
     </StackPanel>
 </UserControl>
