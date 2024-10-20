@@ -293,6 +293,158 @@
             </Grid>
         </Border>
 
+        <!--Chat Section-->
+        <Border CornerRadius="15" ClipToBounds="True"
+        Background="#ffffff"
+        Grid.Column="3"
+        Margin="0 0 30 30"
+        Grid.Row="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+
+                <!--Top Chat MenuBar-->
+                <Grid Background="#ffffff">
+                    <Grid.Effect>
+                        <DropShadowEffect ShadowDepth="1" Direction="-90" BlurRadius="20" Opacity="0.1"/>
+                    </Grid.Effect>
+
+                    <TextBlock Text="Moonlab Std"
+                       FontSize="16"
+                       Margin="20 15"
+                       HorizontalAlignment="Left" />
+
+                    <StackPanel Orientation="Horizontal"
+                        Margin="0 0 10 0"
+                        HorizontalAlignment="Right">
+
+                        <uc:ImageLogo Image="/Images/p2.jpg" Margin="0 0 -15 0"/>
+                        <uc:ImageLogo Image="/Images/p3.jpg" Margin="0 0 -15 0"/>
+                        <uc:ImageLogo Image="/Images/p4.jpg"/>
+
+                        <TextBlock Text="and 3 others" VerticalAlignment="Center" Margin="7 0 7 0" Foreground="#8B8A8F" FontSize="11"/>
+
+                        <Button Style="{StaticResource textBoxButton}">
+                            <icon:PackIconMaterial Kind="DotsVertical"
+                                           Width="14" Height="14"
+                                           Foreground="#88878E" />
+                        </Button>
+
+                    </StackPanel>
+                </Grid>
+
+                <!--Chats-->
+                <StackPanel Grid.Row="1"
+                    Margin="20 10 20 20">
+                    <!--Messages-->
+                    <uc:Chat_Seprator Title="Yesterday" />
+
+                    <uc:UserChat Username="Maud Carson"
+                         Source="/Images/p1.jpg" />
+                    <uc:MessageChat Color="#FF82A3"
+                            Message="Hello my friends" />
+                    <TextBlock Text="3:10 PM"
+                       Style="{StaticResource timeText}" />
+
+                    <uc:MyMessageChat Message="Hi Maud, Are you ok?" />
+                    <uc:MyMessageChat Message="Guys we have a plan to choose best way" />
+                    <TextBlock Text="4:15 PM"
+                       Style="{StaticResource timeTextRight}" />
+
+                    <uc:UserChat Username="Russell Greene"
+                         Source="/Images/p3.jpg" />
+                    <uc:MessageChat Color="#C490FF"
+                            Message="Can you share your opinion?" />
+                    <TextBlock Text="6:39 PM"
+                       Style="{StaticResource timeText}" />
+
+                    <uc:Chat_Seprator Title="Today"
+                              Margin="0 5 0 0" />
+
+                    <uc:UserChat Username="Cole Strikland"
+                         Source="/Images/p4.jpg" />
+                    <uc:MessageChat Color="#68CFA3"
+                            Message="Yes Russell, just dont talk about it with others." />
+                    <uc:MessageChat Color="#68CFA3"
+                            Message="Our plan have new tactics ..." />
+                    <TextBlock Text="3:25 PM"
+                       Style="{StaticResource timeText}" />
+
+                    <uc:MyMessageChat Message="I'm waiting for Maud for comeback to the chat" />
+                    <TextBlock Text="3:26 PM"
+                       Style="{StaticResource timeTextRight}" />
+                </StackPanel>
+
+                <!--Message Bottom Section-->
+                <Grid Grid.Row="2"
+              Margin="10 0 10 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="auto" />
+                    </Grid.ColumnDefinitions>
+
+                    <!--Message Textbox-->
+                    <Grid>
+                        <TextBlock Margin="15 0 120 0"
+                           VerticalAlignment="Center"
+                           Foreground="#868686"
+                           IsHitTestVisible="False"
+                           Panel.ZIndex="1"
+                           Text="Type yout message ..."
+                           Visibility="{Binding ElementName=textBoxMessage, Path=Text.IsEmpty, Converter={StaticResource BoolToVisConverter}}" />
+                        <TextBox Name="textBoxMessage"
+                         Style="{StaticResource messageTextbox}" />
+
+                        <!--Buttons-->
+                        <StackPanel Orientation="Horizontal"
+                            Margin="0 0 8 0"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center">
+
+                            <Button Style="{StaticResource textBoxButton}"
+                            Margin="0 0 1 0">
+                                <icon:PackIconMaterial Kind="BookmarkMultipleOutline"
+                                               Width="12"
+                                               Foreground="#a6a6a6" />
+                            </Button>
+
+                            <Button Style="{StaticResource textBoxButton}">
+                                <icon:PackIconMaterial Kind="Paperclip"
+                                               Width="12"
+                                               Foreground="#a6a6a6" />
+                            </Button>
+
+                            <Button Style="{StaticResource textBoxButton}">
+                                <icon:PackIconMaterial Kind="MicrophoneOutline"
+                                               Width="12"
+                                               Foreground="#a6a6a6" />
+                            </Button>
+
+                        </StackPanel>
+                    </Grid>
+
+                    <!--Send Button-->
+                    <Button Grid.Column="1"
+                    Margin="5 0 0 0"
+                    Style="{StaticResource textBoxButton}">
+                        <icon:PackIconMaterial Kind="Send"
+                                       Margin="3 0 0 2"
+                                       Width="16"
+                                       Foreground="#6F59D4">
+                            <icon:PackIconMaterial.LayoutTransform>
+                                <RotateTransform Angle="-45" />
+                            </icon:PackIconMaterial.LayoutTransform>
+                        </icon:PackIconMaterial>
+                    </Button>
+
+                </Grid>
+
+            </Grid>
+        </Border>
+
 
 
 
