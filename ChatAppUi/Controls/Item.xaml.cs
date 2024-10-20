@@ -53,6 +53,12 @@ namespace ChatAppUi.Controls
             set { SetValue(MessageCountProperty, value); }
         }
 
+        public bool IsActive
+        {
+            get { return (bool)GetValue(IsActiveProperty); }
+            set { SetValue(IsActiveProperty, value); }
+        }
+
 
 
 
