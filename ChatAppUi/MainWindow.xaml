@@ -44,7 +44,7 @@
 
         <!--Left Menu 1-->
         <Border CornerRadius="20"
-        Background="#6145E3"
+        Background="Crimson"
         Panel.ZIndex="2"
         Grid.RowSpan="2">
 
@@ -103,7 +103,7 @@
 
         <!--Left Menu 2-->
         <Border CornerRadius="0 20 20 0"
-        Background="#6F50FF"
+        Background="#ff3856"
         Grid.Column="1"
         Margin="-25 0 0 0"
         Panel.ZIndex="1"
@@ -264,8 +264,8 @@
                        Margin="25 15 0 5" />
 
                     <!--Person Items-->
-                    <uc:Item Title="Cole Strickland"
-                     Image="/Images/p1.jpg"
+                    <uc:Item Title="Amin Mirzaei"
+                     Image="/Images/AminMirzaeiProfile.png"
                      Message="Okay, Nice work"
                      Color="#73AFFF"
                      MessageCount="2" />
@@ -433,7 +433,7 @@
                         <icon:PackIconMaterial Kind="Send"
                                        Margin="3 0 0 2"
                                        Width="16"
-                                       Foreground="#6F59D4">
+                                       Foreground="Crimson">
                             <icon:PackIconMaterial.LayoutTransform>
                                 <RotateTransform Angle="-45" />
                             </icon:PackIconMaterial.LayoutTransform>

@@ -86,7 +86,7 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type ToggleButton}">
-                        <Border x:Name="templateRoot" Background="#6145E3" BorderThickness="0" CornerRadius="15" SnapsToDevicePixels="true">
+                        <Border x:Name="templateRoot" Background="Crimson" BorderThickness="0" CornerRadius="15" SnapsToDevicePixels="true">
                             <Border x:Name="splitBorder" BorderThickness="1" BorderBrush="Transparent" HorizontalAlignment="Right" Margin="0 0 7 0" SnapsToDevicePixels="true" Width="{DynamicResource {x:Static SystemParameters.VerticalScrollBarWidthKey}}">
                                 <Path x:Name="arrow" Data="F1 M 0,0 L 2.667,2.66665 L 5.3334,0 L 5.3334,-1.78168 L 2.6667,0.88501 L0,-1.78168 L0,0 Z" Fill="White" HorizontalAlignment="Left" Margin="0 4 0 0" VerticalAlignment="Center"/>
                             </Border>
@@ -273,7 +273,7 @@
 
                 <DataTrigger Binding="{Binding ElementName=menuButton, Path=IsActive}" Value="True">
                     <Setter Property="Background" Value="#F8F7FC" />
-                    <Setter Property="Foreground" Value="#6F53F3" />
+                    <Setter Property="Foreground" Value="Crimson" />
                     <Setter Property="Tag" Value="Visible" />
                 </DataTrigger>
             </Style.Triggers>
