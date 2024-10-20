@@ -20,6 +20,8 @@ namespace ChatAppUi.Controls
     /// </summary>
     public partial class MyMessageChat : UserControl
     {
+        public static readonly DependencyProperty MessageProperty = DependencyProperty.Register("Message", typeof(string), typeof(MyMessageChat));
+
         public MyMessageChat()
         {
             InitializeComponent();
