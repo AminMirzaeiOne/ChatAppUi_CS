@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ChatAppUi.Controls"
              mc:Ignorable="d" 
              Name="imageLogo">
-    <Border>
+    <Border CornerRadius="50" BorderThickness="2" BorderBrush="White" VerticalAlignment="Center">
             
     </Border>
 </UserControl>
