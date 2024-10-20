@@ -22,6 +22,12 @@ namespace ChatAppUi.Controls
     {
         public static readonly DependencyProperty ImageProperty = DependencyProperty.Register("Image", typeof(ImageSource), typeof(ImageLogo));
 
+        public ImageSource Image
+        {
+            get { return (ImageSource)GetValue(ImageProperty); }
+            set { SetValue(ImageProperty, value); }
+        }
+
         public ImageLogo()
         {
             InitializeComponent();
