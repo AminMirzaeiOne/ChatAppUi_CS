@@ -75,6 +75,18 @@
                 </Grid>
             </Border>
 
+            <StackPanel VerticalAlignment="Center"
+            Grid.Column="1"
+            Margin="15 0 0 0">
+                <TextBlock Text="{Binding Path=Title,ElementName=item}"
+               Foreground="#212121"
+               FontSize="14"
+               FontWeight="SemiBold" />
+                <TextBlock Text="{Binding Path=Message,ElementName=item}"
+               Foreground="#8b8b8b"
+               Margin="0 3 0 0" />
+            </StackPanel>
+
         </Grid>
         
     </Border>
