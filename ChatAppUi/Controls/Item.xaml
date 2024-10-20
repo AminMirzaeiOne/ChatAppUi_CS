@@ -34,6 +34,10 @@
                 </Style.Triggers>
             </Style>
         </Border.Style>
+
+        <Grid>
+            
+        </Grid>
         
     </Border>
 </UserControl>
