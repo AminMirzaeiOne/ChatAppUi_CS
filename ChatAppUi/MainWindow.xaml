@@ -48,6 +48,61 @@
         Panel.ZIndex="2"
         Grid.RowSpan="2">
 
+            <Grid>
+                <!--App Title-->
+                <TextBlock Text="Chat App"
+                   Foreground="#ffffff"
+                   FontSize="16"
+                   VerticalAlignment="Top"
+                   Margin="0 30 0 0"
+                   HorizontalAlignment="Center"
+                   FontWeight="SemiBold">
+
+                    <TextBlock.LayoutTransform>
+                        <RotateTransform Angle="90" />
+                    </TextBlock.LayoutTransform>
+                </TextBlock>
+
+                <!--Account Buttons-->
+                <StackPanel Margin="0 170 0 0">
+
+                    <uc:AccountMenu Title="A"
+                            IsActive="True"
+                            GradientColor1="#D1ABFF"
+                            GradientColor2="#B07CFF" />
+
+                    <uc:AccountMenu Title="B"
+                            GradientColor1="#FBA0C8"
+                            GradientColor2="#FE7094" />
+
+                    <uc:AccountMenu Title="C"
+                            GradientColor1="#E5DB6F"
+                            GradientColor2="#E2C649" />
+
+                    <!--Add Button-->
+                    <Button Style="{StaticResource leftSideButton}">
+                        <Border CornerRadius="3"
+                        Background="Transparent"
+                        Width="25"
+                        Height="25"
+                        BorderThickness="0.8"
+                        BorderBrush="White"
+                        Margin="-3 0 0 0">
+
+                            <icon:PackIconMaterial Kind="Plus"
+                                           Width="10"
+                                           Height="10"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center" />
+                        </Border>
+                    </Button>
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
+
+
 
     </Grid>
 </Window>
