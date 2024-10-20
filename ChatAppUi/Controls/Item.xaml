@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ChatAppUi.Controls"
              mc:Ignorable="d" 
              Name="item">
-    <Border>
+    <Border Padding="0 8">
             
     </Border>
 </UserControl>
