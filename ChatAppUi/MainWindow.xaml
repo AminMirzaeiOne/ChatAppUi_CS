@@ -31,7 +31,17 @@
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        
-        
+
+        <!--Background-->
+        <Border CornerRadius="0 20 20 0"
+        Background="#F8F7FC"
+        Grid.Column="2"
+        Grid.ColumnSpan="2"
+        MouseDown="Border_MouseDown"
+        MouseLeftButtonDown="Border_MouseLeftButtonDown"
+        Margin="-25 0 0 0"
+        Grid.RowSpan="2" />
+
+
     </Grid>
 </Window>
