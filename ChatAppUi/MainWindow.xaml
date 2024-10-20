@@ -340,7 +340,7 @@
                 <StackPanel Grid.Row="1"
                     Margin="20 10 20 20">
                     <!--Messages-->
-                    <uc:Chat_Seprator Title="Yesterday" />
+                    <uc:ChatSeprator Title="Yesterday" />
 
                     <uc:UserChat Username="Maud Carson"
                          Source="/Images/p1.jpg" />
@@ -361,7 +361,7 @@
                     <TextBlock Text="6:39 PM"
                        Style="{StaticResource timeText}" />
 
-                    <uc:Chat_Seprator Title="Today"
+                    <uc:ChatSeprator Title="Today"
                               Margin="0 5 0 0" />
 
                     <uc:UserChat Username="Cole Strikland"

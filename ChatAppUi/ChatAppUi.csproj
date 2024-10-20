@@ -159,7 +159,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\AminMirzaeiProfile.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\p1.jpg" />
     <Resource Include="Images\p2.jpg" />
