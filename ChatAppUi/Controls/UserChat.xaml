@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ChatAppUi.Controls"
              mc:Ignorable="d" 
              Name="userChat">
-    <Grid>
+    <StackPanel>
             
-    </Grid>
+    </StackPanel>
 </UserControl>
