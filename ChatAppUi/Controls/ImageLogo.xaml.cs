@@ -20,6 +20,8 @@ namespace ChatAppUi.Controls
     /// </summary>
     public partial class ImageLogo : UserControl
     {
+        public static readonly DependencyProperty ImageProperty = DependencyProperty.Register("Image", typeof(ImageSource), typeof(ImageLogo));
+
         public ImageLogo()
         {
             InitializeComponent();
