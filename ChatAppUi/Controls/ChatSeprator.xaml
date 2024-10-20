@@ -15,6 +15,7 @@
 
         <Separator Grid.Column="0" Background="#dadada" Height="0.8"/>
         <TextBlock Grid.Column="1" Margin="13 0" Foreground="#b7b7b7" FontSize="11" Text="{Binding ElementName=chatSeprator,Path=Title}"/>
+        <Separator Grid.Column="2" Background="#dadada" Height="0.8"/>
 
 
     </Grid>
