@@ -7,6 +7,7 @@
              mc:Ignorable="d" 
              Name="myMessageChat">
     <Border CornerRadius="10 0 10 10" Background="#F8F7FC" Padding="10 7" HorizontalAlignment="Right" Margin="0 5 0 0">
-            
+        <TextBlock Text="{Binding Path=Message,ElementName=myMessageChat}" FontSize="14" Foreground="#94939A" VerticalAlignment="Center" Margin="3 0 3 2"/>
+
     </Border>
 </UserControl>
