@@ -36,6 +36,12 @@ namespace ChatAppUi.Controls
             set { SetValue(IsActiveProperty, value); }
         }
 
+        public MahApps.Metro.IconPacks.PackIconMaterialKind Icon
+        {
+            get { return (MahApps.Metro.IconPacks.PackIconMaterialKind)GetValue(IconProperty); }
+            set { SetValue(IconProperty, value); }
+        }
+
         public MenuButton()
         {
             InitializeComponent();
