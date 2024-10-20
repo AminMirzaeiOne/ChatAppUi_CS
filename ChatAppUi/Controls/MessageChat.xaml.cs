@@ -21,6 +21,8 @@ namespace ChatAppUi.Controls
     public partial class MessageChat : UserControl
     {
         public static readonly DependencyProperty MessageProperty = DependencyProperty.Register("Message", typeof(string), typeof(MessageChat));
+        public static readonly DependencyProperty ColorProperty = DependencyProperty.Register("Color", typeof(Brush), typeof(MessageChat));
+
 
         public MessageChat()
         {
