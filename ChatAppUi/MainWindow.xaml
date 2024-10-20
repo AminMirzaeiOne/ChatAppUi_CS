@@ -101,6 +101,58 @@
             </Grid>
         </Border>
 
+        <!--Left Menu 2-->
+        <Border CornerRadius="0 20 20 0"
+        Background="#6F50FF"
+        Grid.Column="1"
+        Margin="-25 0 0 0"
+        Panel.ZIndex="1"
+        Grid.RowSpan="2">
+
+            <Grid>
+                <!--Top ComboBox-->
+                <ComboBox Style="{DynamicResource ComboBoxStyle2}" VerticalAlignment="Top" Margin="25 45 0 0">
+                    <ComboBoxItem Content="Cabang Yog" />
+                    <ComboBoxItem Content="Reza Asadi" IsSelected="True" />
+                    <ComboBoxItem Content="John Doe" />
+                    <ComboBoxItem Content="Rojan Mary" />
+                </ComboBox>
+
+                <!--Menu Buttons-->
+                <StackPanel Margin="25 160 0 0">
+
+                    <uc:MenuButton Title="Dashboard"
+                           Icon="HomeOutline" />
+
+                    <uc:MenuButton Title="Shipment"
+                           Icon="ChartTimelineVariantShimmer" />
+
+                    <uc:MenuButton Title="Users"
+                           Icon="AccountMultipleOutline" />
+
+                    <uc:MenuButton Title="Messages" IsActive="True"
+                           Icon="MessageOutline" />
+
+                    <uc:MenuButton Title="Revenue"
+                           Icon="CurrencyUsd" />
+
+                    <uc:MenuButton Title="Maps"
+                           Icon="MapMarkerOutline" />
+                </StackPanel>
+
+                <!--Bottom Menu buttons-->
+                <StackPanel VerticalAlignment="Bottom"
+                    Margin="25 0 0 40">
+
+                    <uc:MenuButton Title="Settings"
+                           Icon="CogOutline" />
+                    <uc:MenuButton Title="Logout"
+                           Icon="Logout" />
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
 
 
 
