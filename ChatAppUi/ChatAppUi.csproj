@@ -67,6 +67,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Controls\ChatSeprator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -77,6 +81,9 @@
     </Compile>
     <Compile Include="Controls\AccountMenu.xaml.cs">
       <DependentUpon>AccountMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ChatSeprator.xaml.cs">
+      <DependentUpon>ChatSeprator.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
