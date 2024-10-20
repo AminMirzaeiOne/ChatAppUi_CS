@@ -37,6 +37,12 @@ namespace ChatAppUi.Controls
             set { SetValue(IsActiveProperty, value); }
         }
 
+        public Color GradientColor1
+        {
+            get { return (Color)GetValue(GradientColor1Property); }
+            set { SetValue(GradientColor1Property, value); }
+        }
+
         public AccountMenu()
         {
             InitializeComponent();
