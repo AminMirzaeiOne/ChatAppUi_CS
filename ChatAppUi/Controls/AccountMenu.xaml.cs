@@ -21,6 +21,7 @@ namespace ChatAppUi.Controls
     public partial class AccountMenu : UserControl
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(AccountMenu));
+        public static readonly DependencyProperty IsActiveProperty = DependencyProperty.Register("IsActive", typeof(bool), typeof(AccountMenu));
 
 
         public AccountMenu()
