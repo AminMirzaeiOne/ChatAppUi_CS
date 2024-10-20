@@ -21,6 +21,8 @@ namespace ChatAppUi.Controls
     public partial class UserChat : UserControl
     {
         public static readonly DependencyProperty UsernameProperty = DependencyProperty.Register("Username", typeof(string), typeof(UserChat));
+        public static readonly DependencyProperty SourceProperty = DependencyProperty.Register("Source", typeof(ImageSource), typeof(UserChat));
+
 
         public UserChat()
         {
