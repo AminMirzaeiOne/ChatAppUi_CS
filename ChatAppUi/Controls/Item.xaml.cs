@@ -47,6 +47,12 @@ namespace ChatAppUi.Controls
             set { SetValue(TagNameProperty, value); }
         }
 
+        public string MessageCount
+        {
+            get { return (string)GetValue(MessageCountProperty); }
+            set { SetValue(MessageCountProperty, value); }
+        }
+
 
 
 
