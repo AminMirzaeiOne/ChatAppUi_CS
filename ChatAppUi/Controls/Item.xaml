@@ -41,7 +41,40 @@
                 <ColumnDefinition Width="180" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            
+
+            <Border Background="White"
+        CornerRadius="50"
+        Width="43"
+        Height="43"
+        Margin="20 0 0 0">
+
+                <Grid>
+                    <TextBlock Text="{Binding Path=TagName,ElementName=item}"
+                   HorizontalAlignment="Center"
+                   FontWeight="SemiBold"
+                   VerticalAlignment="Center"
+                   FontSize="14"
+                   Foreground="{Binding Path=Color,ElementName=item}" />
+
+                    <Ellipse>
+                        <Ellipse.Style>
+                            <Style TargetType="Ellipse">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding ElementName=item,Path=Image}" Value="{x:Null}">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Ellipse.Style>
+
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="{Binding ElementName=item,Path=Image}"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+
+                </Grid>
+            </Border>
+
         </Grid>
         
     </Border>
