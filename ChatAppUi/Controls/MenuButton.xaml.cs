@@ -30,6 +30,12 @@ namespace ChatAppUi.Controls
             set { SetValue(TitleProperty, value); }
         }
 
+        public bool IsActive
+        {
+            get { return (bool)GetValue(IsActiveProperty); }
+            set { SetValue(IsActiveProperty, value); }
+        }
+
         public MenuButton()
         {
             InitializeComponent();
