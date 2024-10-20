@@ -29,6 +29,12 @@ namespace ChatAppUi.Controls
             set { SetValue(UsernameProperty, value); }
         }
 
+        public ImageSource Source
+        {
+            get { return (ImageSource)GetValue(SourceProperty); }
+            set { SetValue(SourceProperty, value); }
+        }
+
         public UserChat()
         {
             InitializeComponent();
