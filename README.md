@@ -19,7 +19,7 @@ Designing the user interface of a Chat program in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/d7ebc4bd-ea08-4e52-a950-cf75da2ea4cb">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/beaa62e2-9a9d-4bc1-bb13-765611f7dc1b">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/37dcf04e-22aa-4903-bbaa-3722f94a674d">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/9d7da28b-1cb8-4e0e-85df-0860f25b534f">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/1617367e-a3b1-47f4-b784-ad5bf6a8d9b2">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/e21c93cf-3098-4966-97e4-053958a61c4c">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/123cec2a-742d-4ed5-8d5c-3b83c02e23dd">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/0e473b6d-6561-4f99-be4f-626470b43277">
