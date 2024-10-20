@@ -525,5 +525,10 @@
             <Setter Property="Margin" Value="47 3 0 0" />
         </Style>
 
+        <Style x:Key="timeTextRight" TargetType="TextBlock" BasedOn="{StaticResource timeText}">
+            <Setter Property="Margin" Value="0 3 7 0" />
+            <Setter Property="HorizontalAlignment" Value="Right" />
+        </Style>
+
     </Application.Resources>
 </Application>
