@@ -12,5 +12,9 @@
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+
+        <Separator Grid.Column="0" Background="#dadada" Height="0.8"/>
+
+
     </Grid>
 </UserControl>
