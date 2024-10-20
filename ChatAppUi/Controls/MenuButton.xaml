@@ -8,6 +8,14 @@
              Name="menuButton"
              d:DesignWidth="200">
     <Grid Margin="0 -17">
-            
+        <Grid HorizontalAlignment="Right"
+      Width="20"
+      Height="85"
+      Panel.ZIndex="1"
+      Visibility="{Binding ElementName=btn,Path=Tag}">
+
+            <Path Fill="#F8F7FC" Stretch="Fill"
+        Data="M0 20.7C15 20 26.5 12 27 0V87.6C26 75 15.1 67.5 0 67V24Z"/>
+        </Grid>
     </Grid>
 </UserControl>
