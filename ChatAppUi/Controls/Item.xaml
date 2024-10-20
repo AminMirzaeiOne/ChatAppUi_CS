@@ -87,6 +87,18 @@
                Margin="0 3 0 0" />
             </StackPanel>
 
+            <Border CornerRadius="50"
+        Width="20"
+        Height="20"
+        Grid.Column="2"
+        Visibility="{Binding Path=Visible,ElementName=item}"
+        Background="{Binding Path=Color,ElementName=item}">
+                <TextBlock Text="{Binding Path=MessageCount,ElementName=item}"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               Foreground="#ffffff" />
+            </Border>
+
         </Grid>
         
     </Border>
