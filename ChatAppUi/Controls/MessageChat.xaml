@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ChatAppUi.Controls"
              mc:Ignorable="d" 
              Name="messageChat">
-    <Border>
+    <Border CornerRadius="0 10 10 10" Background="{Binding Path=Color,ElementName=messageChat}" Padding="10 7" HorizontalAlignment="Left" Margin="40 5 0 0">
             
     </Border>
 </UserControl>
