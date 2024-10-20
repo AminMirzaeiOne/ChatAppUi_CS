@@ -7,6 +7,10 @@
              mc:Ignorable="d" 
              Name="imageLogo">
     <Border CornerRadius="50" BorderThickness="2" BorderBrush="White" VerticalAlignment="Center">
-            
+        <Ellipse Width="23" Height="23">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="{Binding ElementName=imageLogo,Path=Image}" />
+            </Ellipse.Fill>
+        </Ellipse>
     </Border>
 </UserControl>
