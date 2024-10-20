@@ -20,6 +20,9 @@ namespace ChatAppUi.Controls
     /// </summary>
     public partial class AccountMenu : UserControl
     {
+        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(AccountMenu));
+
+
         public AccountMenu()
         {
             InitializeComponent();
