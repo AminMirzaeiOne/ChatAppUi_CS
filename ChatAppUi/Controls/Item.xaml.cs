@@ -35,6 +35,12 @@ namespace ChatAppUi.Controls
             set { SetValue(TitleProperty, value); }
         }
 
+        public string Message
+        {
+            get { return (string)GetValue(MessageProperty); }
+            set { SetValue(MessageProperty, value); }
+        }
+
         public Item()
         {
             InitializeComponent();
