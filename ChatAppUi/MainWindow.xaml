@@ -14,7 +14,11 @@
         ResizeMode="NoResize"
         Height="830"
         Width="1250">
-    
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisConverter" />
+    </Window.Resources>
+
     <Grid>
         
     </Grid>
