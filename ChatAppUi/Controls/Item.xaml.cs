@@ -65,6 +65,12 @@ namespace ChatAppUi.Controls
             set { SetValue(ColorProperty, value); }
         }
 
+        public Visibility Visible
+        {
+            get { return (Visibility)GetValue(VisibleProperty); }
+            set { SetValue(VisibleProperty, value); }
+        }
+
 
 
 
