@@ -7,6 +7,33 @@
              mc:Ignorable="d" 
              Name="item">
     <Border Padding="0 8">
-            
+        <Border.Style>
+            <Style TargetType="Border">
+                <Setter Property="BorderThickness"
+                Value="2 0 0 0" />
+                <Setter Property="BorderBrush"
+                Value="Transparent" />
+
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver"
+                     Value="True">
+                        <Setter Property="Background"
+                        Value="#F1EFFB" />
+                        <Setter Property="BorderBrush"
+                        Value="#6F52F9" />
+                    </Trigger>
+
+                    <DataTrigger Binding="{Binding ElementName=item, Path=IsActive}"
+                         Value="True">
+
+                        <Setter Property="Background"
+                        Value="#F1EFFB" />
+                        <Setter Property="BorderBrush"
+                        Value="#6F52F9" />
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </Border.Style>
+        
     </Border>
 </UserControl>
