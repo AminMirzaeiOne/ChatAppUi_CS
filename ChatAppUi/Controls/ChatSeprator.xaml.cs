@@ -20,6 +20,8 @@ namespace ChatAppUi.Controls
     /// </summary>
     public partial class ChatSeprator : UserControl
     {
+        public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(Chat_Seprator));
+
         public ChatSeprator()
         {
             InitializeComponent();
