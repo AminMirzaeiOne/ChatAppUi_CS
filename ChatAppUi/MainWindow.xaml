@@ -207,6 +207,92 @@
             </StackPanel>
         </Grid>
 
+        <!--Chat Items Section-->
+        <Border Grid.Column="2"
+        Grid.Row="1">
+            <Grid>
+                <!--Seprator-->
+                <StackPanel Orientation="Horizontal"
+                    Margin="30 0 0 30">
+                    <Rectangle VerticalAlignment="Stretch"
+                       Width="0.8"
+                       Stroke="#dadada" />
+                </StackPanel>
+
+                <!--Groups Items-->
+                <StackPanel Margin="30 0 15 0">
+                    <TextBlock Text="Groups"
+                       Style="{StaticResource textTitle}"
+                       Margin="25 0 0 5" />
+
+                    <uc:Item Title="Para Habib"
+                     Message="Okay, Cool!"
+                     Color="#73AFFF"
+                     TagName="PH"
+                     MessageCount="2" />
+
+                    <uc:Item Title="Moonolab Std"
+                     IsActive="True"
+                     Message="Suwun bos!"
+                     Color="#B387EC"
+                     TagName="MS"
+                     Visible="Collapsed" />
+
+                    <uc:Item Title="Omah Guyup"
+                     Message="Thanks! im going to forward ..."
+                     Color="#FFAD2C"
+                     TagName="OG"
+                     MessageCount="6" />
+
+                    <uc:Item Title="Sugih Manteb"
+                     Message="Thank you"
+                     Color="#FF7195"
+                     TagName="SM"
+                     MessageCount="1" />
+
+                    <uc:Item Title="Bakul Mac"
+                     Message="Grateful thoughts"
+                     Color="#5AC795"
+                     TagName="BM"
+                     Visible="Collapsed" />
+
+                    <Button Content="Show All"
+                    Style="{StaticResource showButton}" />
+
+                    <TextBlock Text="Persons"
+                       Style="{StaticResource textTitle}"
+                       Margin="25 15 0 5" />
+
+                    <!--Person Items-->
+                    <uc:Item Title="Cole Strickland"
+                     Image="/Images/p1.jpg"
+                     Message="Okay, Nice work"
+                     Color="#73AFFF"
+                     MessageCount="2" />
+
+                    <uc:Item Title="Reza Asadi"
+                     Image="/Images/p2.jpg"
+                     Message="Plz share those recap to me"
+                     Visible="Collapsed" />
+
+                    <uc:Item Title="Gavin Harrison"
+                     Image="/Images/p3.jpg"
+                     Message="You can check it now"
+                     Visible="Collapsed" />
+
+                    <uc:Item Title="Lillian Davis"
+                     Image="/Images/p4.jpg"
+                     Message="OMG !!!"
+                     Color="#5AC795"
+                     TagName="BM"
+                     MessageCount="3" />
+
+                    <Button Content="Show All"
+                    Style="{StaticResource showButton}" />
+                </StackPanel>
+            </Grid>
+        </Border>
+
 
 
 
