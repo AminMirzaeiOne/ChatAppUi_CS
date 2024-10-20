@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ChatAppUi.Controls"
              mc:Ignorable="d" 
              Name="item">
-    <Grid>
+    <Border>
             
-    </Grid>
+    </Border>
 </UserControl>
